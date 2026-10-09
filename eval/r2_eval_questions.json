@@ -1,0 +1,92 @@
+[
+  {
+    "id": "R2-Q01",
+    "question": "What is the primary motivation behind Corrective Retrieval Augmented Generation (CRAG), and what algorithm does it use to refine retrieved documents?",
+    "type": "single-hop",
+    "answer": "CRAG addresses scenarios where standard RAG retrievers return inaccurate or low-quality documents that lead to hallucinations. It uses a lightweight retrieval evaluator to assess document quality and a decompose-then-recompose algorithm to focus on key information and filter out irrelevant noise.",
+    "gold_paper_id": "2401.15884",
+    "gold_chunk_ids": ["2401.15884_0000", "2401.15884_0002"],
+    "is_answerable": true
+  },
+  {
+    "id": "R2-Q02",
+    "question": "How does Adaptive-RAG decide between non-retrieval, single-step retrieval, and multi-step retrieval?",
+    "type": "single-hop",
+    "answer": "Adaptive-RAG classifies incoming queries according to question complexity using a trained classifier, routing simple questions to non-retrieval or single-shot RAG, while routing complex multi-hop queries to iterative multi-step retrieval strategies.",
+    "gold_paper_id": "2403.14403",
+    "gold_chunk_ids": ["2403.14403_0000"],
+    "is_answerable": true
+  },
+  {
+    "id": "R2-Q03",
+    "question": "Compare the core defense mechanism of TrustRAG with the correction loop in CRAG when faced with noisy or adversarial context.",
+    "type": "multi-hop",
+    "answer": "CRAG detects low-quality documents via a confidence score and triggers web search or document decomposition/filtering. In contrast, TrustRAG specifically targets corpus poisoning and adversarial injection attacks by verifying factual consistency and filtering corrupted chunks prior to generator ingestion.",
+    "gold_paper_id": ["2401.15884", "2501.00879"],
+    "gold_chunk_ids": ["2401.15884_0000", "2501.00879_0000"],
+    "is_answerable": true
+  },
+  {
+    "id": "R2-Q04",
+    "question": "What key benchmark does MTRAG provide, and why do multi-turn conversational RAG systems present unique retrieval challenges?",
+    "type": "single-hop",
+    "answer": "MTRAG introduces a multi-turn conversational benchmark where questions depend heavily on preceding conversation context, requiring retrievers to resolve conversational co-references and topic shifts across turns.",
+    "gold_paper_id": "2501.03468",
+    "gold_chunk_ids": ["2501.03468_0000"],
+    "is_answerable": true
+  },
+  {
+    "id": "R2-Q05",
+    "question": "According to the survey on Agentic RAG (arXiv:2501.09136), what are the three foundational agent patterns that enhance standard RAG?",
+    "type": "single-hop",
+    "answer": "The three foundational patterns identified are reflection (self-critique and verification), planning (query decomposition and step-by-step routing), and tool use (interleaving external search engines, code execution, and APIs).",
+    "gold_paper_id": "2501.09136",
+    "gold_chunk_ids": ["2501.09136_0000", "2501.09136_0020"],
+    "is_answerable": true
+  },
+  {
+    "id": "R2-Q06",
+    "question": "How do LLM-based listwise rankers differ from pointwise and pairwise rankers in RAG pipelines?",
+    "type": "single-hop",
+    "answer": "Listwise rankers evaluate a set of candidate documents simultaneously in the LLM's prompt, allowing the model to capture relative relevance and diversity across all candidates rather than scoring each document in isolation (pointwise) or in pairs (pairwise).",
+    "gold_paper_id": "2501.09186",
+    "gold_chunk_ids": ["2501.09186_0000"],
+    "is_answerable": true
+  },
+  {
+    "id": "R2-Q07",
+    "question": "How does GraphRAG structure knowledge differently from standard chunk-based vector retrieval?",
+    "type": "single-hop",
+    "answer": "GraphRAG extracts entities, relationships, and communities from the corpus to construct multi-scale knowledge graphs, enabling retrieval over broad global themes and thematic summaries rather than isolated local chunk fragments.",
+    "gold_paper_id": "2501.14050",
+    "gold_chunk_ids": ["2501.14050_0000"],
+    "is_answerable": true
+  },
+  {
+    "id": "R2-Q08",
+    "question": "What is the trade-off in latency and token cost between single-shot vanilla RAG and multi-agent planning according to the agentic surveys?",
+    "type": "multi-hop",
+    "answer": "Single-shot RAG requires only 1 retrieval pass and 1 generation call (low latency, lowest cost), whereas multi-agent planning introduces multiple LLM calls for query decomposition, parallel worker retrievals, and verification, increasing latency and token cost by 3x-8x.",
+    "gold_paper_id": ["2501.09136", "2403.14403"],
+    "gold_chunk_ids": ["2501.09136_0020", "2403.14403_0000"],
+    "is_answerable": true
+  },
+  {
+    "id": "R2-Q09",
+    "question": "What specific reinforcement learning loss function is used to train AlphaFold 3's diffusion module for protein backbone generation?",
+    "type": "unanswerable",
+    "answer": "UNANSWERABLE: This paper corpus is restricted to recent arXiv research on agents, retrieval, and reasoning; structural biology models like AlphaFold 3 are not present in this corpus.",
+    "gold_paper_id": null,
+    "gold_chunk_ids": [],
+    "is_answerable": false
+  },
+  {
+    "id": "R2-Q10",
+    "question": "What quantum computing compiler optimizations are demonstrated in the Qiskit 2.0 release benchmark?",
+    "type": "unanswerable",
+    "answer": "UNANSWERABLE: The corpus does not cover quantum computing or compiler frameworks; the agent must abstain from hallucinating an answer.",
+    "gold_paper_id": null,
+    "gold_chunk_ids": [],
+    "is_answerable": false
+  }
+]
