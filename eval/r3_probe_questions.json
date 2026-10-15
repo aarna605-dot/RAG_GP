@@ -1,0 +1,110 @@
+[
+ {
+  "id": "p01",
+  "question": "What is the core idea of Corrective Retrieval Augmented Generation?",
+  "expected_route": "single",
+  "kind": "lookup"
+ },
+ {
+  "id": "p02",
+  "question": "How does TrustRAG filter malicious or low-quality documents before generation?",
+  "expected_route": "single",
+  "kind": "lookup"
+ },
+ {
+  "id": "p03",
+  "question": "What structure does HopRAG build to connect passages for multi-hop reasoning?",
+  "expected_route": "single",
+  "kind": "lookup"
+ },
+ {
+  "id": "p04",
+  "question": "How does Search-R1 handle retrieved tokens during reinforcement learning training?",
+  "expected_route": "single",
+  "kind": "lookup"
+ },
+ {
+  "id": "p05",
+  "question": "What does DAT tune dynamically in hybrid retrieval, and why?",
+  "expected_route": "single",
+  "kind": "lookup"
+ },
+ {
+  "id": "p06",
+  "question": "How does ZeroSearch train search capability without querying a real search engine?",
+  "expected_route": "single",
+  "kind": "lookup"
+ },
+ {
+  "id": "p07",
+  "question": "What is MTRAG designed to evaluate?",
+  "expected_route": "single",
+  "kind": "lookup"
+ },
+ {
+  "id": "p08",
+  "question": "What is the primary motivation for Adaptive-RAG, and what classifier does it use to route questions?",
+  "expected_route": "single",
+  "kind": "surface_multi"
+ },
+ {
+  "id": "p09",
+  "question": "What does the AlphaFold 3 paper report about protein-ligand docking accuracy?",
+  "expected_route": "single",
+  "kind": "unanswerable"
+ },
+ {
+  "id": "p10",
+  "question": "Which paper in the corpus introduces quantum hardware for document retrieval?",
+  "expected_route": "single",
+  "kind": "unanswerable"
+ },
+ {
+  "id": "p11",
+  "question": "Compare how CRAG and TrustRAG each defend against low-quality retrieved documents.",
+  "expected_route": "agentic",
+  "kind": "compare"
+ },
+ {
+  "id": "p12",
+  "question": "How do Search-R1 and ZeroSearch differ in how they train a model to use search?",
+  "expected_route": "agentic",
+  "kind": "compare"
+ },
+ {
+  "id": "p13",
+  "question": "Compare the multi-hop strategies of HopRAG, LevelRAG and GRITHopper.",
+  "expected_route": "agentic",
+  "kind": "compare"
+ },
+ {
+  "id": "p14",
+  "question": "Which papers in the corpus study poisoning attacks on RAG, and how do their threat models differ?",
+  "expected_route": "agentic",
+  "kind": "aggregate"
+ },
+ {
+  "id": "p15",
+  "question": "Adaptive-RAG routes by question complexity; how does LLM-Independent Adaptive RAG decide without calling the LLM, and which approach is cheaper?",
+  "expected_route": "agentic",
+  "kind": "compare"
+ },
+ {
+  "id": "p16",
+  "question": "How does MA-RAG's collaborative multi-agent design differ from the multi-agent reinforcement learning approach to improving RAG?",
+  "expected_route": "agentic",
+  "kind": "compare"
+ },
+ {
+  "id": "p17",
+  "question": "Which papers evaluate hybrid retrieval, and does DAT's alpha tuning address the weaknesses they report?",
+  "expected_route": "agentic",
+  "kind": "bridge"
+ },
+ {
+  "id": "p18",
+  "question": "Across the papers on adaptive retrieval, when do they say retrieval should be skipped, and how does each decide?",
+  "expected_route": "agentic",
+  "kind": "aggregate"
+ }
+]

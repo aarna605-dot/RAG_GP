@@ -1,0 +1,6 @@
+# Needed only for S1/S2 (R2's retriever). Same list as the R1/R2 repo README.
+lancedb
+bm25s
+sentence-transformers
+torch
+pandas

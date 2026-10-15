@@ -1,0 +1,585 @@
+[
+ {
+  "id": "p01",
+  "question": "What is the core idea of Corrective Retrieval Augmented Generation?",
+  "route": "single",
+  "difficulty": 0.2689,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "What is the core idea of Corrective Retrieval Augmented Generation?",
+    "depends_on": [],
+    "paper_hints": [
+     "2401.15884"
+    ]
+   }
+  ],
+  "waves": [
+   [
+    "q1"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 0,
+   "planner_tokens": 0,
+   "total_tokens": 0
+  }
+ },
+ {
+  "id": "p02",
+  "question": "How does TrustRAG filter malicious or low-quality documents before generation?",
+  "route": "single",
+  "difficulty": 0.2689,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "How does TrustRAG filter malicious or low-quality documents before generation?",
+    "depends_on": [],
+    "paper_hints": [
+     "2501.00879"
+    ]
+   }
+  ],
+  "waves": [
+   [
+    "q1"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 0,
+   "planner_tokens": 0,
+   "total_tokens": 0
+  }
+ },
+ {
+  "id": "p03",
+  "question": "What structure does HopRAG build to connect passages for multi-hop reasoning?",
+  "route": "single",
+  "difficulty": 0.2689,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "What structure does HopRAG build to connect passages for multi-hop reasoning?",
+    "depends_on": [],
+    "paper_hints": [
+     "2502.12442"
+    ]
+   }
+  ],
+  "waves": [
+   [
+    "q1"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 0,
+   "planner_tokens": 0,
+   "total_tokens": 0
+  }
+ },
+ {
+  "id": "p04",
+  "question": "How does Search-R1 handle retrieved tokens during reinforcement learning training?",
+  "route": "single",
+  "difficulty": 0.2689,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "How does Search-R1 handle retrieved tokens during reinforcement learning training?",
+    "depends_on": [],
+    "paper_hints": [
+     "2503.09516"
+    ]
+   }
+  ],
+  "waves": [
+   [
+    "q1"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 0,
+   "planner_tokens": 0,
+   "total_tokens": 0
+  }
+ },
+ {
+  "id": "p05",
+  "question": "What does DAT tune dynamically in hybrid retrieval, and why?",
+  "route": "single",
+  "difficulty": 0.2772,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "What does DAT tune dynamically in hybrid retrieval, and why?",
+    "depends_on": [],
+    "paper_hints": [
+     "2503.23013"
+    ]
+   }
+  ],
+  "waves": [
+   [
+    "q1"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 165,
+   "planner_tokens": 0,
+   "total_tokens": 165
+  }
+ },
+ {
+  "id": "p06",
+  "question": "How does ZeroSearch train search capability without querying a real search engine?",
+  "route": "single",
+  "difficulty": 0.2689,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "How does ZeroSearch train search capability without querying a real search engine?",
+    "depends_on": [],
+    "paper_hints": [
+     "2505.04588"
+    ]
+   }
+  ],
+  "waves": [
+   [
+    "q1"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 0,
+   "planner_tokens": 0,
+   "total_tokens": 0
+  }
+ },
+ {
+  "id": "p07",
+  "question": "What is MTRAG designed to evaluate?",
+  "route": "single",
+  "difficulty": 0.2689,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "What is MTRAG designed to evaluate?",
+    "depends_on": [],
+    "paper_hints": [
+     "2501.03468"
+    ]
+   }
+  ],
+  "waves": [
+   [
+    "q1"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 0,
+   "planner_tokens": 0,
+   "total_tokens": 0
+  }
+ },
+ {
+  "id": "p08",
+  "question": "What is the primary motivation for Adaptive-RAG, and what classifier does it use to route questions?",
+  "route": "single",
+  "difficulty": 0.2772,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "What is the primary motivation for Adaptive-RAG, and what classifier does it use to route questions?",
+    "depends_on": [],
+    "paper_hints": [
+     "2403.14403"
+    ]
+   }
+  ],
+  "waves": [
+   [
+    "q1"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 171,
+   "planner_tokens": 0,
+   "total_tokens": 171
+  }
+ },
+ {
+  "id": "p09",
+  "question": "What does the AlphaFold 3 paper report about protein-ligand docking accuracy?",
+  "route": "single",
+  "difficulty": 0.2689,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "What does the AlphaFold 3 paper report about protein-ligand docking accuracy?",
+    "depends_on": [],
+    "paper_hints": []
+   }
+  ],
+  "waves": [
+   [
+    "q1"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 0,
+   "planner_tokens": 0,
+   "total_tokens": 0
+  }
+ },
+ {
+  "id": "p10",
+  "question": "Which paper in the corpus introduces quantum hardware for document retrieval?",
+  "route": "single",
+  "difficulty": 0.2689,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "Which paper in the corpus introduces quantum hardware for document retrieval?",
+    "depends_on": [],
+    "paper_hints": []
+   }
+  ],
+  "waves": [
+   [
+    "q1"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 0,
+   "planner_tokens": 0,
+   "total_tokens": 0
+  }
+ },
+ {
+  "id": "p11",
+  "question": "Compare how CRAG and TrustRAG each defend against low-quality retrieved documents.",
+  "route": "agentic",
+  "difficulty": 0.8455,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "How does CRAG defend against low-quality retrieved documents?",
+    "depends_on": [],
+    "paper_hints": [
+     "2401.15884"
+    ]
+   },
+   {
+    "id": "q2",
+    "text": "How does TrustRAG defend against low-quality retrieved documents?",
+    "depends_on": [],
+    "paper_hints": [
+     "2501.00879"
+    ]
+   }
+  ],
+  "waves": [
+   [
+    "q1",
+    "q2"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 0,
+   "planner_tokens": 424,
+   "total_tokens": 424
+  }
+ },
+ {
+  "id": "p12",
+  "question": "How do Search-R1 and ZeroSearch differ in how they train a model to use search?",
+  "route": "agentic",
+  "difficulty": 0.832,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "How does Search-R1 train a model to use search?",
+    "depends_on": [],
+    "paper_hints": [
+     "2503.09516"
+    ]
+   },
+   {
+    "id": "q2",
+    "text": "How does ZeroSearch train a model to use search?",
+    "depends_on": [],
+    "paper_hints": [
+     "2505.04588"
+    ]
+   }
+  ],
+  "waves": [
+   [
+    "q1",
+    "q2"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 0,
+   "planner_tokens": 457,
+   "total_tokens": 457
+  }
+ },
+ {
+  "id": "p13",
+  "question": "Compare the multi-hop strategies of HopRAG, LevelRAG and GRITHopper.",
+  "route": "agentic",
+  "difficulty": 0.8581,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "What is the multi-hop strategy used in HopRAG?",
+    "depends_on": [],
+    "paper_hints": [
+     "2502.12442"
+    ]
+   },
+   {
+    "id": "q2",
+    "text": "What is the multi-hop strategy used in LevelRAG?",
+    "depends_on": [],
+    "paper_hints": [
+     "2502.18139"
+    ]
+   },
+   {
+    "id": "q3",
+    "text": "What is the multi-hop strategy used in GRITHopper?",
+    "depends_on": [],
+    "paper_hints": [
+     "2503.07519"
+    ]
+   }
+  ],
+  "waves": [
+   [
+    "q1",
+    "q2",
+    "q3"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 0,
+   "planner_tokens": 460,
+   "total_tokens": 460
+  }
+ },
+ {
+  "id": "p14",
+  "question": "Which papers in the corpus study poisoning attacks on RAG, and how do their threat models differ?",
+  "route": "agentic",
+  "difficulty": 0.7109,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "Which papers in the corpus study poisoning attacks on RAG?",
+    "depends_on": [],
+    "paper_hints": []
+   },
+   {
+    "id": "q2",
+    "text": "What are the threat models used in each of the papers studying poisoning attacks on RAG: {q1}?",
+    "depends_on": [
+     "q1"
+    ],
+    "paper_hints": []
+   }
+  ],
+  "waves": [
+   [
+    "q1"
+   ],
+   [
+    "q2"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 0,
+   "planner_tokens": 477,
+   "total_tokens": 477
+  }
+ },
+ {
+  "id": "p15",
+  "question": "Adaptive-RAG routes by question complexity; how does LLM-Independent Adaptive RAG decide without calling the LLM, and which approach is cheaper?",
+  "route": "agentic",
+  "difficulty": 0.7728,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "How does LLM-Independent Adaptive RAG make routing decisions without calling the LLM?",
+    "depends_on": [],
+    "paper_hints": [
+     "2403.14403",
+     "2505.04253"
+    ]
+   },
+   {
+    "id": "q2",
+    "text": "How do the costs of Adaptive-RAG and LLM-Independent Adaptive RAG compare?",
+    "depends_on": [],
+    "paper_hints": [
+     "2403.14403",
+     "2505.04253"
+    ]
+   }
+  ],
+  "waves": [
+   [
+    "q1",
+    "q2"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 182,
+   "planner_tokens": 481,
+   "total_tokens": 663
+  }
+ },
+ {
+  "id": "p16",
+  "question": "How does MA-RAG's collaborative multi-agent design differ from the multi-agent reinforcement learning approach to improving RAG?",
+  "route": "agentic",
+  "difficulty": 0.7,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "What is the collaborative multi-agent design of MA-RAG?",
+    "depends_on": [],
+    "paper_hints": [
+     "2505.20096"
+    ]
+   },
+   {
+    "id": "q2",
+    "text": "What is the multi-agent reinforcement learning approach to improving RAG?",
+    "depends_on": [],
+    "paper_hints": []
+   }
+  ],
+  "waves": [
+   [
+    "q1",
+    "q2"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 186,
+   "planner_tokens": 437,
+   "total_tokens": 623
+  }
+ },
+ {
+  "id": "p17",
+  "question": "Which papers evaluate hybrid retrieval, and does DAT's alpha tuning address the weaknesses they report?",
+  "route": "agentic",
+  "difficulty": 0.6388,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "Which papers evaluate hybrid retrieval and report its weaknesses or limitations?",
+    "depends_on": [],
+    "paper_hints": []
+   },
+   {
+    "id": "q2",
+    "text": "How does DAT's alpha tuning address the weaknesses reported in these papers: {q1}?",
+    "depends_on": [
+     "q1"
+    ],
+    "paper_hints": [
+     "2503.23013"
+    ]
+   }
+  ],
+  "waves": [
+   [
+    "q1"
+   ],
+   [
+    "q2"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 173,
+   "planner_tokens": 473,
+   "total_tokens": 646
+  }
+ },
+ {
+  "id": "p18",
+  "question": "Across the papers on adaptive retrieval, when do they say retrieval should be skipped, and how does each decide?",
+  "route": "agentic",
+  "difficulty": 0.6875,
+  "sub_questions": [
+   {
+    "id": "q1",
+    "text": "Which papers study adaptive retrieval?",
+    "depends_on": [],
+    "paper_hints": []
+   },
+   {
+    "id": "q2",
+    "text": "When do the papers on adaptive retrieval ({q1}) say retrieval should be skipped, and how does each decide?",
+    "depends_on": [
+     "q1"
+    ],
+    "paper_hints": []
+   }
+  ],
+  "waves": [
+   [
+    "q1"
+   ],
+   [
+    "q2"
+   ]
+  ],
+  "fallback": false,
+  "notes": [],
+  "cost": {
+   "router_tokens": 174,
+   "planner_tokens": 436,
+   "total_tokens": 610
+  }
+ }
+]

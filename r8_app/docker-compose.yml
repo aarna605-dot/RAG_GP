@@ -1,0 +1,8 @@
+services:
+  web:
+    build:
+      context: ..
+      dockerfile: r8_app/Dockerfile
+    ports: ["8000:8000"]
+    volumes: ["./runs:/srv/r8_app/runs"]
+    env_file: [{ path: .env, required: false }]
